@@ -1,7 +1,8 @@
 import requests
 
 # URL to interact with
-url = 'http://192.168.0.101:5000/'
+url = "http://127.0.0.1:5000/"
+
 
 #sendaGETrequestthURL
 response = requests.get(url)
